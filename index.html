@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<header class="header-main" style="background-image:url('{{ site.baseurl }}/assets/img/pureblog.jpg')">
+	<div class="overlay-light"></div>
+	{% include nav.html %}
+	<div class="home-title">
+		<h1>{{ site.title }}</h1>
+		<h3>For all things "pure".</h3>
+	</div>
+	<a href="#blurb" class="home-avatar"></a>
+</header>
+
+<!-- About -->
+<div class="about-site" id="blurb">
+	<h2>About</h2>
+	<p>Hello world! Welcome to the pure blog, for all things "pure". "Pure" things include (and are limited to) pure mathematics, theoretical physics, and analytic philosophy (and on rare ocassion retro video games). I am a pure mathematician with a deep interest in analytic philosophy, I decided to start this blog when I realized there are too many pure mathematicians who lack interest in analytic philosophy and I think that needs to change. People are under the impression that fundamental philosophical questions cannot be answered, and this is simply not true; humanity is on the verge of solving some of the "big questions". In this blog I will discuss a wide variety of topics related to: pure mathematics, theoretical physics, and theoretical computer science while also discussing the philosophical/metaphysical implications which can be derived therefrom. As well as blog posts, you can find software projects I have worked on in the projects section and things that were not quite "blogworthy" in the other section. I'm not quite sure how to end this introduction.</p>
+</div>
+<hr>
+
+<!-- Projects -->
+<h2 class="my-projects">Projects</h2>
+<div class="my-projects-content-wrapper">
+	<div class="project-wrap">
+		<div class="project">
+			<div class="project-img project-img-one"></div>
+			<div class="project-text">
+				<h4>Toy Library</h4>
+				<p>This is a Rails project I worked on in third year. Click <a href="http://toylibrary.herokuapp.com" target="_blank">here</a> to see it.</p>
+			</div>
+		</div>
+	</div>
+	<div class="project-wrap project-wrap-reverse">
+		<div class="project project">
+			<div class="project-img project-img-two"></div>
+			<div class="project-text">
+				<h4>Unbeatable Tic-Tac-Toe</h4>
+				<p>This is a simple game of tic-tac-toe that uses minimax algorithm for AI and is thus unbeatable.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<hr>

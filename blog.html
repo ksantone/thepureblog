@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<header class="blog-index-header-main" style="background-image: url('{{ site.baseurl }}/assets/img/pureblog.jpg')">
+	<div class="overlay-dark"></div>
+	{% include nav.html %}
+	<div class="blog-index-title">
+		<h1 class="my-blog-collection">My Blog Collection</h1>
+		<h2 class="my-blog-description">Below are all of my blogposts.</h2>
+	</div>
+</header>
+<div class="blogIndexWrapper">
+	{% for post in site.posts %}
+		<div class="blogPostContainer">
+			<a href="{{ post.url }}" class="blogPostFeatImg" style="background-image: url('/assets/img/blog/{{ post.featImg }}');"></a>
+			<a href="{{ post.url }}" class="blogTitle">{{ post.title }}</a>
+		</div>
+	{% endfor %}
+</div>
