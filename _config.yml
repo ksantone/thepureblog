@@ -21,7 +21,7 @@
 title: The Pure Blog
 email: santone.kassim@gmail.com
 description: Hello world. Welcome to the pure blog for all things "pure".
-baseurl: "thepureblog"
+baseurl: ""
 url: "https://www.thepureblog.com"
 
 github_path: https://www.github.com/ksantone
